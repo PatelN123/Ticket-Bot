@@ -170,7 +170,7 @@ module.exports = {
 				*/
 				.setFooter({
 					// Please respect the project by keeping the credits, (if it is too disturbing you can credit me in the "about me" of the bot discord)
-					text: "ticket.pm" + client.embeds.ticketOpened.footer.text.replace("ticket.pm", ""), // Please respect the LICENSE :D
+					text: "Resolv Bot" + client.embeds.ticketOpened.footer.text.replace("Resolv Bot", ""), // Please respect the LICENSE :D
 					// Please respect the project by keeping the credits, (if it is too disturbing you can credit me in the "about me" of the bot discord)
 					iconUrl: client.embeds.ticketOpened.footer.iconUrl,
 				});

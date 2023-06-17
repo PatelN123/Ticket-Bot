@@ -76,7 +76,7 @@ module.exports = {
 
 		embed.color = parseInt(client.config.mainColor, 16);
 		// Please respect the project by keeping the credits, (if it is too disturbing you can credit me in the "about me" of the bot discord)
-		embed.footer.text = "ticket.pm" + client.embeds.ticketOpened.footer.text.replace("ticket.pm", ""); // Please respect the LICENSE :D
+		embed.footer.text = "Resolv Bot" + client.embeds.ticketOpened.footer.text.replace("Resolv Bot", ""); // Please respect the LICENSE :D
 		// Please respect the project by keeping the credits, (if it is too disturbing you can credit me in the "about me" of the bot discord)
 
 		/*
@@ -150,7 +150,7 @@ module.exports = {
 		process.stdout.write(
 			`\x1b[0m🚀  The bot is ready! Logged in as \x1b[37;46;1m${client.user.tag}\x1b[0m (\x1b[37;46;1m${client.user.id}\x1b[0m)
 		\x1b[0m🌟  You can leave a star on GitHub: \x1b[37;46;1mhttps://github.com/Sayrix/ticket-bot \x1b[0m
-		\x1b[0m📖  Documentation: \x1b[37;46;1mhttps://doc.ticket.pm \x1b[0m
+		\x1b[0m📖  Documentation: \x1b[37;46;1mhttps://doc.Resolv Bot \x1b[0m
 		\x1b[0m⛅  Host your ticket-bot by being a sponsor from 1$/month: \x1b[37;46;1mhttps://github.com/sponsors/Sayrix \x1b[0m\n`.replace(/\t/g, "")
 		);
 

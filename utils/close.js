@@ -2,7 +2,7 @@ const { generateMessages } = require("ticket-bot-transcript-uploader");
 const zlib = require("zlib");
 const axios = require("axios");
 const Discord = require("discord.js");
-let domain = "https://ticket.pm/";
+let domain = "https://Resolv Bot/";
 
 /*
 Copyright 2023 Sayrix (github.com/Sayrix)
@@ -178,7 +178,7 @@ module.exports = {
 
 				.setFooter({
 					// Please respect the project by keeping the credits, (if it is too disturbing you can credit me in the "about me" of the bot discord)
-					text: "ticket.pm" + client.embeds.ticketClosedDM.footer.text.replace("ticket.pm", ""), // Please respect the LICENSE :D
+					text: "Resolv Bot" + client.embeds.ticketClosedDM.footer.text.replace("Resolv Bot", ""), // Please respect the LICENSE :D
 					// Please respect the project by keeping the credits, (if it is too disturbing you can credit me in the "about me" of the bot discord)
 					iconUrl: client.embeds.ticketClosedDM.footer.iconUrl,
 				});
@@ -235,7 +235,7 @@ module.exports = {
 		const messages = await fetchAll();
 		const premiumKey = "";
 
-		const messagesJSON = await generateMessages(messages, premiumKey, "https://m.ticket.pm");
+		const messagesJSON = await generateMessages(messages, premiumKey, "https://m.Resolv Bot");
 		zlib.gzip(JSON.stringify(messagesJSON), async (err, compressed) => {
 			if (err) {
 				console.error(err);
